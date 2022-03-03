@@ -29,30 +29,66 @@ function hideMenu() {
 // Review next and previous button
 const participantsReviews = [
   {
-    name: "Lim Jia Yu",
-    job: "Year 1 Artificial Intelligence Student",
-    img: "images/jiayu.jpg",
-    text: "It's one of the best event I had ever joined!"
+    name: "Oh Hui Xin",
+    job: "Year 1 Medical Student in UKM",
+    img: "testimonial/Oh Hui Xin.jpg",
+    text: "An amazing event that provided me with a clearer insight of the medical journey ahead"
   },
   {
-    name:"Lim Chen Kang",
-    job:"Year 1 Software Engineering Student",
-    img:"images/chenkang.jpg",
-    text:"I really enjoyed it!"
+    name:"Tushara",
+    job:"Year 1 Medical  Student in Taylor's University",
+    img:"testimonial/Tushara.jpeg",
+    text:"It was super informative and gained lots of insight regarding the medical field in general and all about medical school life"
+  },
+  {
+    name:"Lee Ai Shuan",
+    job:"Year 1 Medical  Student in UKM",
+    img:"testimonial/Lee Ai Shuan.jpg",
+    text:"Just like other aspiring medical students, I was having a lot of doubts regarding medicine. And that session (Networking Session) really helped me clear my doubts!"
+  },
+  {
+    name:"Gabriel Soon Chai Long",
+    job:"Year 1 Medical  Student in University Malaya",
+    img:"testimonial/Gabriel Soon.png",
+    text:"I will recommend this event for my fellow friends or juniors to join. This event really helps a lot of pre-medical students to prepare themselves before they enter into medical school"
+  },
+  {
+    name:"Adam Neo",
+    job:"Year 1 Medical  Student in UKM",
+    img:"testimonial/Adam Neo.jpg",
+    text:"If I were to describe MAID in 3 words, it would be informative, helpful and fun! You might spark an interest in medicine when you join"
+  },
+  {
+    name:"Tan Jian Qi",
+    job:"Year 1 Medical  Student in UPM",
+    img:"testimonial/Tan Jian Qi.png",
+    text:"As a participant of the event, I got to try out history-taking, which was thrilling! With the guidance from seniors, we got to play the doctors and patients role according to the examples (scenarios) given"
   }
 ]
 const committeeReviews = [
   {
-    name: "Lim Qi Wei",
-    job: "Year 1 UKM Medical Student",
-    img: "images/qiwei.jpg",
-    text: "I really gain a lot while organising this activity"
+    name: "Jeffrey Tee Wei Yang",
+    job: "Year 2 Medical Student in University Malaya",
+    img: "testimonial/Jeffrey.jpg",
+    text: "MAID 2021 was an amazing team! Definitely learnt a lot and it consolidated my resolve in choosing medicine"
   },
   {
-    name: "Teng Zhi Qi",
-    job: "Year 1 UKM Medical Student",
-    img: "images/zhiqi.jpg",
-    text: "I truly enjoy while interacting with the participants"
+    name: "Rex Chan Zhen Khai",
+    job: "Year 2 Medical Student in University Malaya",
+    img: "testimonial/Rex.jpg",
+    text: "The two years I spent in MMIYM as a CA and then as Vice President was a gateway for me to explore my leadership capabilities. I was hooked by the culture in MMIYM as it offers like-minded students exciting experiences that bring can bring their college and university lives to new heights. I would definitely recommend it to pre-university students who wants to be part of a big medical community"
+  },
+  {
+    name: "Tan Jia Ying",
+    job: "Year 3 Medical Student in Monash University",
+    img: "testimonial/Chelsea.jpeg",
+    text: "The activities were fun and simulated the med school experience!"
+  },
+  {
+    name: "Suzanne",
+    job: "Year 2 Medical Student in Newcastle University",
+    img: "testimonial/Suzanne.jpeg",
+    text: "MAID is basically like a precious baby for me and being the first batch of committee to organise the virtual version is really challenging. However, at the same time it was fun to organise and fight along with my amazing committees. Well I will say MAID has its bittersweet moments but it’s this moments that I will hold very precious to my heart forever. Well I wish the incoming organising committee a best of luck and continue on the legacy"
   }
 ]
 
