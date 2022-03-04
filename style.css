@@ -696,6 +696,12 @@ h3 {
   display: none;
 }
 
+@media screen and (max-width: 450px) {
+  .position-ppl {
+    font-size: 0.6rem;
+  }
+}
+
 /*------------Testimonials-----------*/
 .testimonials {
   width: 80%;
