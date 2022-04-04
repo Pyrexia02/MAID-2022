@@ -442,6 +442,9 @@ document.querySelectorAll('.video-container video').forEach(vid => {
   }
 })
 
+const videos = document.querySelector('.videos');
+
 document.querySelector('.popup-video span').onclick = () =>{
   document.querySelector('.popup-video').style.display = "none";
+  videos.pause();
 }

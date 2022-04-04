@@ -490,13 +490,13 @@ h3 {
 .slider-container {
   border: 5px solid #efb054;
   width: 80vw;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   height: 40vh;
   max-width: 80rem;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 .slide {
   position: absolute;
