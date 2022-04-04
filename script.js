@@ -381,7 +381,7 @@ function getRemainingTime(){
 
   if (t<0){
     clearInterval(countdowns);
-    deadline.innerHTML = `<h4 class="expired">Sorry, this giveaway has expired</h4>`
+    deadline.innerHTML = `<h4 class="expired">Sorry, this event has ended</h4>`
   }
 }
 
@@ -433,3 +433,15 @@ function carousel() {
 }
 
 prevBtn.style.display = "none";
+
+/*-----------------Popup Video-------------*/
+document.querySelectorAll('.video-container video').forEach(vid => {
+  vid.onclick = () =>{
+    document.querySelector('.popup-video').style.display = "block";
+    document.querySelector('.popup-video video').src=vid.getAttribute('src');
+  }
+})
+
+document.querySelector('.popup-video span').onclick = () =>{
+  document.querySelector('.popup-video').style.display = "none";
+}
